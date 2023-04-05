@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(31, 31, 31);
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: #f5f5f5;
+}
+.card{
+    height: 530px;
+    width: 400px;
+    margin-top: 20px;
+    background: #ecf0f3;
+    box-shadow: -3px -3px 7px #ffffff,3px 3px 5px #ceced1;
+    box-sizing: border-box;
+    padding: 20px 40px;
+    border-radius: 36px;
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+}
+.optinon svg{
+    cursor: pointer;
+}
+.image{
+    width: 150px;
+    height: 150px;
+    background: #ecf0f3;
+    box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+    border-radius: 50%;
+    padding: 20px;
+    margin:0 50px 8px 70px ;
+}
+.image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.name{
+    font-size: 24px;
+    text-align: center;
+}
+.job{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 4px;
+}
+.btn{
+    border: none;
+    outline: none;
+    background: #ecf0f3;
+    box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+    cursor: pointer;
+    transform: all 0.3s;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+.social-media button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 8px 0 8px;
+}
+button:hover{
+    background: #ecf0f3;
+    box-shadow: inset -3px -3px 7px #ffffff, inset 3px 3px 5px #ceced1;
+}
+.social-media svg{
+    width: 30px;
+    height: 30px;
+   
+}
+
+.contact{
+   margin-top: 16px;
+   display: flex;
+   justify-content: center;
+}
+.message,.subscribe{
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+   margin: 0 8px 0 8px;
+}
+.more{
+    display: flex;
+    margin-top: 36px;
+    justify-content: center;
+}
+.more a{
+    padding: 8px 16px 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.like,.comment,.share{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more svg{
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+    fill: rgb(31, 31, 31); ;
+}
+.more span{
+    width: 2px;
+    height: 36px;
+    background-color: rgb(221, 221, 221);
+}
+.share:hover svg{
+    fill: rgb(57, 165, 253);
+}
+.like:hover svg{
+    fill: rgb(255, 69, 69);
+}
+.comment:hover svg{
+    fill: rgb(207, 48, 255);
+}
